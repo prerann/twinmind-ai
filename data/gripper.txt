@@ -1,0 +1,15 @@
+A robotic gripper is used to pick and place objects.
+
+It consists of:
+- Servo motor for arm movement
+- Servo motor for gripping mechanism
+
+Common issues:
+- Low torque causes slipping
+- Instability during forward motion
+- Delay in gripping action
+
+Solutions:
+- Increase torque
+- Add counterweight
+- Optimize motor control timing
