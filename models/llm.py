@@ -1,6 +1,9 @@
 from groq import Groq
 from config.config import GROQ_API_KEY
 
+if not GROQ_API_KEY:
+    raise ValueError("API KEY NOT FOUND")
+
 client = Groq(api_key=GROQ_API_KEY)
 
 def generate_response(messages):
